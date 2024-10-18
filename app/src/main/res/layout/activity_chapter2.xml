@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".b1chapter1"
+    android:background="@drawable/gradient_list"
+    android:fontFamily="monospace"
+    >
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="113dp"
+        android:layout_height="34dp"
+        android:text="Chapter 2!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="546dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="4dp"
+            android:scrollbars="vertical"
+            android:text="Tonha lay down under the shade of a big tree to escape from the scathing rays of the sun. He looked keenly at the azure sky and marshmallow-like clouds to keep his mind away from his aching body. Tonha was only 6 years old, but at his age, he was incredibly mature, however, he didn't understand if that was good or bad. He lived in a small village in Pangea, which was located on the ‘lower’ side of the world. He wondered if his life would have been better if he was born into the ‘higher’ side of the world where technology and in general the quality of life was said to be higher. Tonha was a mess inside and he knew it, there was rarely anybody who would sit down and listen to his problems and there were barely any kids his age in the village, he suffered from loneliness. He wished that this loneliness would be the full extent of his problems, however, he suffered from his abusive father as well. Tonha looked on as the clouds turned gray and the sky went dark in a flash.
+“Damn this weather, I wanted to sit here and avoid my father till 6 pm,” he thought. He reluctantly decided to rush back to the village because he knew that he would get in trouble for coming into the house wet.
+
+Tonha sprinted across the fields and quietly entered his shelter through the open house door. He made sure he quietly closed the door so his father wouldn't be aware of his arrival. Just as he stepped foot into his home he heard his mother and father discussing something important in the kitchen, he ignored it and walked quietly towards his small and smelly room. About halfway toward his room, he heard his name being used in this seemingly important discussion, and he stopped in his tracks at once. He knew the best decision would probably be to just move on, however, curiosity got the better of him and he silently approached the kitchen door.
+
+'`Did Tonha come back?” he heard his mother say.
+“I’m not sure, and you know I don't give a damn about that little runt” his father asserted.
+
+“You know I feel the same way, however, I can’t bring myself to say it to his face as you do”
+
+These words were a slap across the face for Tonha. His mother was slightly distant from him, however, she always tried to show that she cared and always promised to hear about his problems later. His hands trembled with anger whilst his heart panged with pain, he just found out that the only person who seemed to care didn’t.
+
+“You know how I am, I say it how it is, I never wanted a child in the first place, all that runt does use up my hard-earned money for food and water”
+
+“True, and we are struggling financially, what say we just kill or abandon him and be done with it.”
+
+“That’s what I always wanted, heck I wouldn't have even married you unless my parents had forced me”
+
+Tonha had heard enough, he was going to leave his so-called parents at night and move on for good. He was well aware that he should just escape quietly right now without making a scene even though he so badly wanted to confront his parents and give them an earful of what it meant to be a parent. He quietly packed some of his belongings and left his home without a trace while his parents had gotten into an argument about who hated him more. At this point, he just wished they died.
+
+Just as he stepped out of his house, it started raining heavily. He didn't care that his body was getting wet because his mind was elsewhere. He decided to take shelter under a tree and wait for night-time. The reason he decided to wait till the night came was to steel his resolve to leave, for once he does he will have a tough road ahead.
+Tonha walked a fairly long distance away from the village in the rain and took shelter under a tree. He waited till he was absolutely sure his parents had fallen asleep and then he made his way back to the village. As he walked towards the village, he started to notice a weird smell was getting stronger the closer he got. He immediately recognized it as the smell of blood. He sensed that something bad had happened and raced back to the village as fast as his tiny legs could carry him. When he finally arrived he froze in his place. His body trembled at the horrendous sight before him which only a crazed psychopath would do. He saw all the villagers' corpses hung up on a tree, including both his parents. Their bodies were so mangled and lacerated that you could barely recognize them. He immediately felt a wave of guilt hit him for wishing death on somebody, in a way he felt that this was his fault. He still hated his parents, but he knew it was wrong of him to wish them death.
+“I'm lucky, aren’t I? For avoiding that grotesques situation”
+“Or am I? Maybe I should have just died with everybody, why am I even alive?” he thought
+
+The killer had probably left the scene and the police might arrive at any moment. He went back to his former home and collected his essentials. After praying in front of his mom’s corpse for at least ‘acting’ like a parent,he left the village once and for all, without shedding a tear for the dead bodies, still hurting from his body aches, still suffering from his loneliness, still in pain from the scathing words of his mother, still in guilt from the sight of the corpses, and still in anguish from the lack of love in his life."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="<"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="153dp"
+        android:layout_height="44dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Next Chapter  >"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <Button
+        android:id="@+id/prev"
+        android:layout_width="195dp"
+        android:layout_height="46dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="< Previous Chapter"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+</androidx.constraintlayout.widget.ConstraintLayout>
